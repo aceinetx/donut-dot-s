@@ -13,7 +13,6 @@ main:
 	push rbp
 	mov rbp, rsp
 
-	; room for local variables
 	mov rax, __?float64?__(0.0)
 	movq xmm0, rax
 	movq qword [rbp-8], xmm0  ; A
